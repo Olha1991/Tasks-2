@@ -1,0 +1,7 @@
+- Write a static method that takes three parameters: login, password, and confirmedPassword.
+- The Login parameter contains only Latin letters, numbers, and the underscore character. For example, java_skypro_go. The login parameter has a length limitation — it must be equal to or less than 20 characters. If login is longer than 20 characters or contains invalid characters, an exception must be thrown — WrongLoginException.
+- The Password parameter contains only Latin letters, numbers, and the underscore character. For example, D_1hWiKjjP_9. If password is longer than 20 characters or contains invalid characters, an exception must be thrown — WrongPasswordException.
+- The password and confirmedPassword parameters must be equal. If this requirement is not met, an exception must be thrown — WrongPasswordException.
+- Use a multi-catch block to handle exceptions.
+- The method should return nothing if the parameter values ​​meet the restrictions, or throw an exception if the conditions are not met.
+- When calling a method, you must handle potential exceptions.
